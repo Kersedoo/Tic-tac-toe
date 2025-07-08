@@ -16,7 +16,7 @@ class TicTacToeGUI extends JFrame implements ActionListener {
         if (player1Name == null || player1Name.trim().isEmpty()) {
             player1Name = "Player 1";
         }
- player2Name = JOptionPane.showInputDialog(this, "Enter Player 2 Name (O):");
+player2Name = JOptionPane.showInputDialog(this, "Enter Player 2 Name (O):");
         if (player2Name == null || player2Name.trim().isEmpty()) {
             player2Name = "Player 2";
         }
